@@ -1,3 +1,3 @@
 # TIL
 
-210828 HTML&CSS 공부  
+210828 HTML&CSS 공부시작!
