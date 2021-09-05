@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+	<body>
+		<table border="1">
+			<thead>
+				<tr>
+					<strong>주식회사 HTML 매출</strong>
+				</tr>
+			</thead>
+			
+			<tbody>
+				<!-- 셀의 정렬 디폴트값은 왼쪽정렬 -->
+				<tr align="center">
+					<!-- rowspan은 행합치기/colspan은 열합치기 -->
+					<td rowspan="2"><strong>/</strong<td>
+					<td colspan="2"><strong>반기</strong></td>
+					<td rowspan="2"><strong>합계</strong></td>
+					<td rowspan="2"><strong>비고</strong></td>
+				</tr>
+				
+				<tr>
+					<td><strong>전반기</strong></td>
+					<td><strong>후반기</strong></td>
+					<td></td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td><strong>2019</strong></td>
+					<td>10억</td>
+					<td>20억</td>
+					<td>30억</td>
+					<td></td>
+				</tr>
+
+				<tr>
+					<td><strong>2020</strong></td>
+					<td>22억</td>
+					<td>33억</td>
+					<td>55억</td>
+					<td rowspan="2">1)</td>
+				</tr>
+
+				<tr>
+					<td><strong>2021</strong></td>
+					<td colspan="2">집계중</td>
+					<td>집계중</td>
+					<td></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
