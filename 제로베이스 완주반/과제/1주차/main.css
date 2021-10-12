@@ -1,0 +1,28 @@
+header {
+  background: yellowgreen;
+}
+
+header img {
+  display: block;
+}
+
+main {
+  background: tomato;
+}
+
+.main-box {
+  background: red;
+  width: 300px;
+  height: 120px;
+}
+
+footer {
+  background: thistle;
+}
+
+.footer-box {
+  background: blue;
+  width: 300px;
+  height: 120px;
+  color: white;
+}
